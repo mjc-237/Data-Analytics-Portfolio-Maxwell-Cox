@@ -35,7 +35,27 @@ Conditional formatting was applied on top to make the performance bands immediat
 **Power BI Dashboards**
 
 
-**Tableau**
+## Global Health Insights Dashboard | Tableau
+
+**Live Dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/maxwell.cox/viz/GapminderDashboard_17745208717160/GlobalHealthInsights?publish=yes)
+
+This project analyses the GapminderHealth dataset covering global health metrics across 
+countries and continents from 1990 to 2008. The goal was to identify health trends and 
+disparities that a global health organisation could use to inform future decisions.
+
+The dataset contains 6,000 records with fields including life expectancy, BMI, population, 
+gender, country, and continent. Using Tableau, I built four individual worksheets and 
+combined them into a single interactive dashboard covering life expectancy by continent, 
+life expectancy trends over time for the top 5 countries, population distribution by gender, 
+and a scatter plot comparing average BMI against life expectancy coloured by continent.
+
+Key findings included a clear positive relationship between BMI and life expectancy, with 
+European and Oceanian nations clustering at the higher end while African countries sat 
+significantly lower. Japan led life expectancy among the top 5 countries, reaching roughly 
+83 years by 2008, and Europe averaged around 75 years compared to Africa at approximately 
+55, highlighting a persistent global health inequality.
+
+![Global Health Insights Dashboard](gapminder_dashboard.png)
 
 
 **Power BI**
