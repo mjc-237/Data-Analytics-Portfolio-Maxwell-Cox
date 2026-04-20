@@ -29,7 +29,51 @@ Conditional formatting was applied on top to make the performance bands immediat
 **Intro to Python for Data Analysis**
 
 
-**SQL for Analysts**
+## World Database SQL Analysis | MySQL
+
+**Tools:** MySQL Workbench, SQL  
+**Skills Demonstrated:** Database design, ERD creation, SELECT queries, filtering, 
+sorting, aggregation, pattern matching
+
+This project covers two connected areas — designing a relational database schema 
+for a retail business, and writing SQL queries against a real-world dataset.
+
+**Database Design**
+
+The first part involved designing a star schema for a small corner shop with a loyalty 
+programme. The schema was built around a central Sales fact table with dimension tables 
+for Customers, Products, Categories, Suppliers, Stock Level, Loyalty Accounts, and Sale 
+Items. Relationships between tables were defined using primary and foreign keys, and the 
+full schema was mapped out as an Entity Relationship Diagram (ERD).
+
+![Retail Database ERD](retail_erd.png)
+
+**SQL Querying**
+
+The second part involved querying the World database in MySQL Workbench across a range 
+of real-world business scenarios. Queries covered finding the country with the highest 
+life expectancy, identifying cities by population thresholds, filtering city names using 
+pattern matching, sorting results, and using aggregate functions to compare populations 
+across countries.
+
+![SQL Queries and Results](sql_queries_screenshot.png)
+
+**Example queries written:**
+```sql
+-- Country with highest life expectancy
+SELECT name, lifeExpectancy FROM country 
+ORDER BY lifeExpectancy DESC LIMIT 1;
+
+-- Cities with population over 2 million
+SELECT name, population FROM city 
+WHERE population > 2000000;
+
+-- Cities starting with 'Be'
+SELECT name FROM city WHERE name LIKE 'Be%';
+
+-- Top 10 most populated cities
+SELECT * FROM city ORDER BY population DESC LIMIT 10;
+```
 
 
 **Power BI Dashboards**
