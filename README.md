@@ -26,7 +26,42 @@ Conditional formatting was applied on top to make the performance bands immediat
 
 ![Pivot Table and SWITCH categorisation](pivot_table.png)
 
-**Intro to Python for Data Analysis**
+## Student Performance Analysis | Python & Pandas
+
+**Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn  
+**Environment:** Jupyter Notebook  
+**Skills Demonstrated:** Data loading, exploration, cleaning, manipulation, 
+aggregation, conditional logic, pivot tables, visualisation, exporting
+
+This project analyses a student dataset using Python and Pandas, covering 
+the full data analysis workflow from raw CSV to cleaned, enriched output 
+with visualisations.
+
+The dataset contains student names, class, gender, and marks. After loading 
+the data and exploring its structure with `.head()`, `.info()`, and 
+`.describe()`, the following steps were carried out:
+
+- Added a `passed` column using a boolean condition (`mark >= 60`)
+- Renamed columns and dropped temporary fields to keep the data clean
+- Grouped by class and gender to calculate mean scores using `groupby()`
+- Built a pivot table showing average mark by class and gender
+- Used `np.select()` to assign letter grades: A (85+), B (70-84), C (60-69), D (below 60)
+- Sorted the DataFrame by score in descending order
+- Exported the final enriched dataset to a new CSV file
+
+Four visualisations were produced using Matplotlib and Seaborn:
+
+**Distribution of Marks**
+![Histogram](python_histogram.png)
+
+**Number of Students by Gender**
+![Gender Count](python_gender_count.png)
+
+**Average Marks by Gender**
+![Avg Marks by Gender](python_avg_marks_gender.png)
+
+**Correlation Heatmap**
+![Heatmap](python_heatmap.png)
 
 
 ## World Database SQL Analysis | MySQL
