@@ -102,6 +102,29 @@ significantly lower. Japan led life expectancy among the top 5 countries, reachi
 ![Global Health Insights Dashboard](gapminder_dashboard.png)
 
 
-**Power BI**
+## AdventureWorks Sales Analysis | Power BI
+
+**Tool:** Microsoft Power BI Desktop  
+**Skills Demonstrated:** Data import, report design, multi-page layout, 
+slicers, combo charts, bar charts, KPI cards
+
+This report was built using the AdventureWorks dataset, a widely recognised 
+sample sales dataset covering orders, products, regions, and profit across 
+multiple financial years.
+
+The report spans three pages — Overview, Profit, and My Performance. The 
+Overview page (shown below) combines a dual-axis combo chart tracking Sales 
+and Profit Margin by month, a grouped bar chart breaking down Sales by Product 
+Group and Category across regions, and a horizontal bar chart showing total 
+Quantity sold per Category. Year and Region slicers were added to allow 
+interactive filtering across all visuals.
+
+The Profit page uses a matrix table to summarise Orders, Sales, Cost, Profit, 
+and Profit Margin by financial year, with a Region slicer for cross-filtering. 
+The My Performance page compares actual Sales against Targets with Variance 
+and Variance Margin KPI cards at the top, giving a clear at-a-glance view of 
+performance gaps. The completed report was published to Power BI Service.
+
+![AdventureWorks Sales Report](powerbi_sales_report.png)
 
 ## Get in touch
