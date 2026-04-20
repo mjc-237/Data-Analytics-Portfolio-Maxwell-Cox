@@ -56,7 +56,7 @@ life expectancy, identifying cities by population thresholds, filtering city nam
 pattern matching, sorting results, and using aggregate functions to compare populations 
 across countries.
 
-![SQL Queries and Results](sql_queries_screenshot.png)
+![SQL Queries and Results](sql_queries.png)
 
 **Example queries written:**
 ```sql
