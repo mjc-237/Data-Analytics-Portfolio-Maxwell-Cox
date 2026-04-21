@@ -26,6 +26,39 @@ Conditional formatting was applied on top to make the performance bands immediat
 
 ![Pivot Table and SWITCH categorisation](pivot_table.png)
 
+## Spotify Music Features Analysis | Tableau
+
+**Live Dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/maxwell.cox/viz/SpotifyFeaturesv1_17737560541200/Dashboard1?publish=yes)  
+**Tool:** Tableau Public  
+**Skills Demonstrated:** Data import, multi-sheet dashboard design, scatter 
+plots, bar charts, box plots, trend lines, filtering
+
+This project analyses a Spotify features dataset covering thousands of tracks 
+across multiple genres. Each track includes audio attributes measured by 
+Spotify's algorithm — including danceability, energy, tempo, valence, loudness, 
+speechiness, and popularity. The goal was to find patterns in what makes music 
+popular and how genres differ in their audio characteristics.
+
+Eight worksheets were built and combined into a single dashboard covering:
+
+- Tempo vs Valence — exploring whether faster songs tend to sound more positive
+- Danceability vs Popularity — testing whether danceability drives stream counts
+- Duration Analysis — checking if song length has any relationship to popularity
+- Genre Popularity — ranking genres by total popularity score
+- Genre Qualities Comparison — comparing acousticness and energy across genres using a box plot
+- Artist Analysis — identifying the highest popularity artists in the dataset
+- Energy by Artist — ranking artists by average track energy
+- Spread of Loudness by Genre — comparing how loud different genres are on average
+
+Key findings included Pop dominating genre popularity by a significant margin, 
+Drake leading artist popularity with 31,703 points, and Reggaeton, Dance, and 
+Ska being the loudest genres — a counterintuitive result given Rock's reputation 
+for high volume. Song duration showed almost no relationship with popularity, 
+suggesting listeners care about quality over length.
+
+![Spotify Features Dashboard](spotify_dashboard.png)
+
+
 ## Student Performance Analysis | Python & Pandas
 
 **Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn  
