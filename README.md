@@ -203,6 +203,6 @@ performance gaps. The completed report was published to Power BI Service.
 
 I'm currently looking for opportunities in data analysis and am open to entry-level roles, internships, or project collaborations.
 
-GitHub: github.com/mjc-237
+GitHub: github.com/mjc-237 \n
 LinkedIn: https://www.linkedin.com/in/maxwell-cox/
 Email: maxcox2@gmail.com
