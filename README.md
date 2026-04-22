@@ -1,10 +1,14 @@
 # Data-Analytics-Portfolio-Maxwell-Cox
 
-
 # Hi, I'm Max
+
+I'm a data technician in training who enjoys turning raw data into clear, actionable insights. I work across Excel, SQL, Python, Tableau, and Power BI and I'm focused on communicating findings in a way that makes sense to both technical and non-technical audiences.
 
 ## What I work on
 
+I work with real-world datasets to answer business questions and spot trends. My projects span multiple tools and domains, each built around a genuine analytical question.
+Core skills:
+Excel SQL (MySQL) Python (Pandas, NumPy, Matplotlib, Seaborn) Tableau Power BI Data Cleaning Exploratory Analysis Dashboard Design ERD & Database Design
 
 ## Selected projects 
 
@@ -196,3 +200,9 @@ performance gaps. The completed report was published to Power BI Service.
 ![AdventureWorks Sales Report](powerbi_sales_report.png)
 
 ## Get in touch
+
+I'm currently looking for opportunities in data analysis and am open to entry-level roles, internships, or project collaborations.
+
+GitHub: github.com/mjc-237
+LinkedIn: https://www.linkedin.com/in/maxwell-cox/
+Email: maxcox2@gmail.com
