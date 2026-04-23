@@ -183,17 +183,14 @@ the data and exploring its structure with `.head()`, `.info()`, and
 
 Four visualisations were produced using Matplotlib and Seaborn:
 
-**Distribution of Marks**
-![Histogram](python_histogram.png)
-
 **Number of Students by Gender**
 ![Gender Count](python_gender_count.png)
 
 **Average Marks by Gender**
 ![Avg Marks by Gender](python_avg_marks_gender.png)
 
-**Correlation Heatmap**
-![Heatmap](python_heatmap.png)
+**Distribution of Marks**
+![Histogram](python_histogram.png)
 
 
 ## Get in touch
