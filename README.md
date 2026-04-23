@@ -62,92 +62,6 @@ suggesting listeners care about quality over length.
 
 ![Spotify Features Dashboard](spotify_dashboard.png)
 
-
-## Student Performance Analysis | Python & Pandas
-
-**Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn  
-**Environment:** Jupyter Notebook  
-**Skills Demonstrated:** Data loading, exploration, cleaning, manipulation, 
-aggregation, conditional logic, pivot tables, visualisation, exporting
-
-This project analyses a student dataset using Python and Pandas, covering 
-the full data analysis workflow from raw CSV to cleaned, enriched output 
-with visualisations.
-
-The dataset contains student names, class, gender, and marks. After loading 
-the data and exploring its structure with `.head()`, `.info()`, and 
-`.describe()`, the following steps were carried out:
-
-- Added a `passed` column using a boolean condition (`mark >= 60`)
-- Renamed columns and dropped temporary fields to keep the data clean
-- Grouped by class and gender to calculate mean scores using `groupby()`
-- Built a pivot table showing average mark by class and gender
-- Used `np.select()` to assign letter grades: A (85+), B (70-84), C (60-69), D (below 60)
-- Sorted the DataFrame by score in descending order
-- Exported the final enriched dataset to a new CSV file
-
-Four visualisations were produced using Matplotlib and Seaborn:
-
-**Distribution of Marks**
-![Histogram](python_histogram.png)
-
-**Number of Students by Gender**
-![Gender Count](python_gender_count.png)
-
-**Average Marks by Gender**
-![Avg Marks by Gender](python_avg_marks_gender.png)
-
-**Correlation Heatmap**
-![Heatmap](python_heatmap.png)
-
-
-## World Database SQL Analysis | MySQL
-
-**Tools:** MySQL Workbench, SQL  
-**Skills Demonstrated:** Database design, ERD creation, SELECT queries, filtering, 
-sorting, aggregation, pattern matching
-
-This project covers two connected areas — designing a relational database schema 
-for a retail business, and writing SQL queries against a real-world dataset.
-
-**Database Design**
-
-The first part involved designing a star schema for a small corner shop with a loyalty 
-programme. The schema was built around a central Sales fact table with dimension tables 
-for Customers, Products, Categories, Suppliers, Stock Level, Loyalty Accounts, and Sale 
-Items. Relationships between tables were defined using primary and foreign keys, and the 
-full schema was mapped out as an Entity Relationship Diagram (ERD).
-
-![Retail Database ERD](retail_erd.png)
-
-**SQL Querying**
-
-The second part involved querying the World database in MySQL Workbench across a range 
-of real-world business scenarios. Queries covered finding the country with the highest 
-life expectancy, identifying cities by population thresholds, filtering city names using 
-pattern matching, sorting results, and using aggregate functions to compare populations 
-across countries.
-
-![SQL Queries and Results](sql_queries.png)
-
-**Example queries written:**
-```sql
--- Country with highest life expectancy
-SELECT name, lifeExpectancy FROM country 
-ORDER BY lifeExpectancy DESC LIMIT 1;
-
--- Cities with population over 2 million
-SELECT name, population FROM city 
-WHERE population > 2000000;
-
--- Cities starting with 'Be'
-SELECT name FROM city WHERE name LIKE 'Be%';
-
--- Top 10 most populated cities
-SELECT * FROM city ORDER BY population DESC LIMIT 10;
-```
-
-
 **Power BI Dashboards**
 
 
@@ -198,6 +112,91 @@ and Variance Margin KPI cards at the top, giving a clear at-a-glance view of
 performance gaps. The completed report was published to Power BI Service.
 
 ![AdventureWorks Sales Report](powerbi_sales_report.png)
+
+
+## World Database SQL Analysis | MySQL
+
+**Tools:** MySQL Workbench, SQL  
+**Skills Demonstrated:** Database design, ERD creation, SELECT queries, filtering, 
+sorting, aggregation, pattern matching
+
+This project covers two connected areas — designing a relational database schema 
+for a retail business, and writing SQL queries against a real-world dataset.
+
+**Database Design**
+
+The first part involved designing a star schema for a small corner shop with a loyalty 
+programme. The schema was built around a central Sales fact table with dimension tables 
+for Customers, Products, Categories, Suppliers, Stock Level, Loyalty Accounts, and Sale 
+Items. Relationships between tables were defined using primary and foreign keys, and the 
+full schema was mapped out as an Entity Relationship Diagram (ERD).
+
+![Retail Database ERD](retail_erd.png)
+
+**SQL Querying**
+
+The second part involved querying the World database in MySQL Workbench across a range 
+of real-world business scenarios. Queries covered finding the country with the highest 
+life expectancy, identifying cities by population thresholds, filtering city names using 
+pattern matching, sorting results, and using aggregate functions to compare populations 
+across countries.
+
+![SQL Queries and Results](sql_queries.png)
+
+**Example queries written:**
+```sql
+-- Country with highest life expectancy
+SELECT name, lifeExpectancy FROM country 
+ORDER BY lifeExpectancy DESC LIMIT 1;
+
+-- Cities with population over 2 million
+SELECT name, population FROM city 
+WHERE population > 2000000;
+
+-- Cities starting with 'Be'
+SELECT name FROM city WHERE name LIKE 'Be%';
+
+-- Top 10 most populated cities
+SELECT * FROM city ORDER BY population DESC LIMIT 10;
+```
+
+## Student Performance Analysis | Python & Pandas
+
+**Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn  
+**Environment:** Jupyter Notebook  
+**Skills Demonstrated:** Data loading, exploration, cleaning, manipulation, 
+aggregation, conditional logic, pivot tables, visualisation, exporting
+
+This project analyses a student dataset using Python and Pandas, covering 
+the full data analysis workflow from raw CSV to cleaned, enriched output 
+with visualisations.
+
+The dataset contains student names, class, gender, and marks. After loading 
+the data and exploring its structure with `.head()`, `.info()`, and 
+`.describe()`, the following steps were carried out:
+
+- Added a `passed` column using a boolean condition (`mark >= 60`)
+- Renamed columns and dropped temporary fields to keep the data clean
+- Grouped by class and gender to calculate mean scores using `groupby()`
+- Built a pivot table showing average mark by class and gender
+- Used `np.select()` to assign letter grades: A (85+), B (70-84), C (60-69), D (below 60)
+- Sorted the DataFrame by score in descending order
+- Exported the final enriched dataset to a new CSV file
+
+Four visualisations were produced using Matplotlib and Seaborn:
+
+**Distribution of Marks**
+![Histogram](python_histogram.png)
+
+**Number of Students by Gender**
+![Gender Count](python_gender_count.png)
+
+**Average Marks by Gender**
+![Avg Marks by Gender](python_avg_marks_gender.png)
+
+**Correlation Heatmap**
+![Heatmap](python_heatmap.png)
+
 
 ## Get in touch
 
